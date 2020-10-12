@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" text="text/css" href="css/mystyle.css">
+</head>
+<body>
+    <nav>
+        <a href="home.html"><b>Home</b></a>
+        <a href="contactus.html"><b>Contact us</b></a>
+        <a href="about us.html"><b>About us</b></a>
+        <a href="register.html"><b>Rigister</b></a>
+        <a href="timetable.html"><b>Time Table</b></a>
+    </nav>
+    <h2> Registeration Form </h2>
+    <hr>
+
+    <form action="process.php" method="post">
+        <label> username </label>
+        <input type="text" name="username" placeholder="your username" required>
+
+    <br>
+        <label> password </label>
+        <input type="password" name="password" placeholder="your password" required>
+
+    <br>
+        <label> email address </label>
+        <input type="email" name="mail" placeholder="your email" required>
+
+    <br>
+        <label> date of birth </label>
+        <input type="date" name="date" placeholder="">
+
+    <br>
+        <!--"radio"indicates that the labels in section as the same name but differnt values-->
+        <label> gender </label>
+        <input type="radio" name="gender" value="male">male:
+        <input type="radio" name="gender" value="female">female:
+        <input type="radio" name="gender" value="trans">trans:
+
+    <br>
+        <label> Nationality </label>
+        <select name="Nationality" id="Nationality">
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option vaue="Togo">Togo</option>
+                <option value="Cameroun">Cameroun</option>
+                <option value="Senegal">Senegal</option>
+        </select>
+    <br>
+        <input type="checkbox" name="check" value="agree">
+        <label>I agree to the terms and conditions</label>
+    <br>
+        <input type="checkbox" name="check" value="agree">
+        <label>I am at least 18 years old</label>
+    <br>
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>

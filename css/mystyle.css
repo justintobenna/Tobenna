@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(250, 250, 253);
+    /* color: #fff; */
+    /* color: #fff; */
+
+}
+
+#firstrow{
+    background-color: crimson;
+}
+
+.three{
+    width: 31%;
+    display: inline-block;
+    border: 5px solid black;
+}
+
+#secondrow{
+    background-color: cornflowerblue;
+}
+
+.two{
+    width: 49%;
+    display: inline-block;
+    border: 5px solid black;
+}
+#foot{
+    width: 49%;
+    height: 1cm;
+    background-color: chocolate;
+    border: 5px solid black;
+}

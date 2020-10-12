@@ -1,0 +1,58 @@
+body{
+    background-image: url(../Penguins.jpg);
+
+}
+#firstrow{
+    border: 1px solid yellow;
+    width: 20%;
+    margin-left: 14cm;
+    margin-top: 5cm;
+
+}
+#secondrow{
+    background-image: url(../Hydrangeas.jpg);
+    width: 100%;
+
+}
+.a{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid black;
+    color: cyan;
+}
+.b{
+    background-color: white;
+}
+.one{
+    border: 1px solid black;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    margin-left: 0.5cm;
+}
+.two{
+    border: 1px solid black;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    margin-left: 0.5cm;
+}
+.three{
+    border: 1px solid black;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    margin-left: 0.5cm;
+}
+.four{
+    border: 1px solid black;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+    margin-left: 0.1cm;
+}
+.five{
+    background-color: darkgreen;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
